@@ -35,6 +35,8 @@
 * <a target="_blank" href="https://github.com/linkenliu/MissCloudVue">https://github.com/linkenliu/MissCloudVue</a>
 
 # 展示
+
+![image](https://github.com/linkenliu/MissCloudVue/blob/master/static/images/body-bg.jpg)
 ![image](http://oim9lzsav.bkt.clouddn.com/IMG_0554.PNG)
 ![image](http://oim9lzsav.bkt.clouddn.com/IMG_0561.PNG)
 ![image](http://oim9lzsav.bkt.clouddn.com/IMG_0556.PNG)
