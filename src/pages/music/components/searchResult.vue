@@ -108,7 +108,7 @@
     background-color: #ffffff;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch !important;
-    background: url("/../../../../static/images/body-bg.jpg");
+    background: url("/static/images/body-bg.jpg");
     color: #fff
   }
 

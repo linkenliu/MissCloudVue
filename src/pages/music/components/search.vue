@@ -192,7 +192,8 @@
     position: fixed;
     top: 60px !important;
     height: 100%;
-    background-image: url("./../../../../static/images/body-bg.jpg");
+    background-color: teal;
+    background: url("/static/images/body-bg.jpg");
     overflow-y: scroll;
     color: #fff
   }

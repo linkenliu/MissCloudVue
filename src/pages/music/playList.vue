@@ -98,7 +98,7 @@
     position: fixed;
     top: 0;
     height: 100%;
-    background-image: url('./../../../static/images/body-bg.jpg');
+    background-image: url('/static/images/body-bg.jpg');
     color: #fff
   }
   li {
