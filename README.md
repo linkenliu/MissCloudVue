@@ -4,7 +4,48 @@
 * Miss==>>各站点数据整合；图片，视频，文章；在线云音乐播放器；
 
 # 介绍
-* 因平时会浏览一些网页，然而这些站点没有App；所以为了方便浏览，就把这些站点内容集中到Miss App中。
+* 因平时会浏览一些网页，然而这些站点没有App；所以为了方便浏览，就把这些站点内容集中到Miss App中。（PS:欢迎Star）
+# 实现功能
+### 阅读
+1.  读1区
+2.  读2区
+3.  读3区
+* (备注：数据均为missRept服务采集)
+### 音乐
+1.  私人FM
+2.  热歌榜
+3.  每日推荐
+4.  排行榜
+5.  推荐歌单
+6.  播放,歌词
+7.  单曲循环
+8.  随机播放
+9.  列表循环
+10. 上一首,下一首,快进
+11. 加入，删除播放列表
+12. 下载 None
+13. 登录 None
+14  我喜欢的音乐 None
+### 视频 None
+### 图片 None
+
+# Demo
+* <a target="_blank" href="http://139.196.32.78:8090/#/home/music">在线Demo MissCloud</a>
+
+* <a target="_blank" href="https://github.com/linkenliu/MissCloudVue">https://github.com/linkenliu/MissCloudVue</a>
+
+# 展示
+
+![image](https://github.com/linkenliu/MissCloudVue/blob/master/static/images/body-bg.jpg)
+![image](http://oim9lzsav.bkt.clouddn.com/IMG_0554.PNG)
+![image](http://oim9lzsav.bkt.clouddn.com/IMG_0561.PNG)
+![image](http://oim9lzsav.bkt.clouddn.com/IMG_0556.PNG)
+![image](http://oim9lzsav.bkt.clouddn.com/IMG_0558.PNG)
+![image](http://oim9lzsav.bkt.clouddn.com/IMG_0560.PNG)
+![image](http://oim9lzsav.bkt.clouddn.com/IMG_0555.PNG)
+![image](http://oim9lzsav.bkt.clouddn.com/IMG_0559.PNG)
+![image](http://oim9lzsav.bkt.clouddn.com/IMG_0557.PNG)
+
 
 # 技术栈
 * Vue,Vuex,webpack,vueRouter,axios
@@ -40,3 +81,5 @@ npm run build
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
