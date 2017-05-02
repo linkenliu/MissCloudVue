@@ -1,6 +1,8 @@
 # miss-vue
 
-> A Vue.js project
+> A Vue2.0.js project
+
+> Miss==>>各站点数据整合；图片，视频，文章；在线云音乐播放器；
 
 ## Build Setup
 
