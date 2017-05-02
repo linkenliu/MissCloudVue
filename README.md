@@ -5,6 +5,11 @@
 
 # 介绍
 * 因平时会浏览一些网页，然而这些站点没有App；所以为了方便浏览，就把这些站点内容集中到Miss App中。
+#实现功能
+* 阅读
+* 音乐
+* 视频 None
+* 图片 None
 
 # 技术栈
 * Vue,Vuex,webpack,vueRouter,axios
