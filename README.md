@@ -9,6 +9,11 @@
 # 技术栈
 * Vue,Vuex,webpack,vueRouter,axios
 
+# Server
+* missAdmin==>>负责Api服务. ### 技术栈:mongodb,mongoose,koa2
+* missRept==>>负责各网站的数据采集. ### 技术栈:mongodb,mongoose,koa1
+* missCloudMusic==>>负责提供音乐数组Api(网易云) ### 技术栈:express
+
 # 部署
 * Pm2 , Nginx
 
