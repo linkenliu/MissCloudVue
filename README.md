@@ -34,6 +34,17 @@
 
 * <a target="_blank" href="https://github.com/linkenliu/MissCloudVue">https://github.com/linkenliu/MissCloudVue</a>
 
+# 展示
+![image](http://oim9lzsav.bkt.clouddn.com/IMG_0554.PNG)
+![image](http://oim9lzsav.bkt.clouddn.com/IMG_0561.PNG)
+![image](http://oim9lzsav.bkt.clouddn.com/IMG_0556.PNG)
+![image](http://oim9lzsav.bkt.clouddn.com/IMG_0558.PNG)
+![image](http://oim9lzsav.bkt.clouddn.com/IMG_0560.PNG)
+![image](http://oim9lzsav.bkt.clouddn.com/IMG_0555.PNG)
+![image](http://oim9lzsav.bkt.clouddn.com/IMG_0559.PNG)
+![image](http://oim9lzsav.bkt.clouddn.com/IMG_0557.PNG)
+
+
 # 技术栈
 * Vue,Vuex,webpack,vueRouter,axios
 
@@ -68,3 +79,5 @@ npm run build
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
