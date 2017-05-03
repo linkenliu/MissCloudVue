@@ -16,7 +16,7 @@
           <md-icon><i class="iconfont icon-menu"></i></md-icon>
         </md-button>
         <i class="music-seach-icon"></i>
-        <input @click="keyUp()" @keydown="search()"  placeholder="搜索音乐,歌词,歌手" @keyup="search()" v-model="keyword" id="searchText" class="md-title search"
+        <input @click="keyUp()"  placeholder="搜索音乐,歌词,歌手;搜索回车" @keyup.enter="search()" v-model="keyword" id="searchText" class="md-title search"
                style="font-size: 14px;padding-left: 30px;outline:none;width: 70%;border-radius: 20px;background: rgba(255, 255, 255, 0.3);border: 1px solid;color: #fff"/>
         <md-button class="md-icon-button" style="position: absolute;right: 0">
           <md-icon v-show="searchMode==false&&!isFlagBack" @click.native="isShowPlay()">

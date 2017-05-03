@@ -147,6 +147,8 @@
         this.$parent.isSearchResult = true;
         api.search({keyword: keyword}).then(res => {
           this.$store.commit('setSearchList', res);
+        }).catch(err=>{
+            console.log(err.message)
         })
       },
       cacheKeyWordsMe(){
