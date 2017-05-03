@@ -379,7 +379,7 @@
 
   .playcover {
     width: 56%;
-    height: 56%;
+    height: 56% !important;
     border-radius: 50%;
     position: absolute;
     top: 0;
