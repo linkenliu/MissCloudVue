@@ -36,15 +36,17 @@
 
 # 展示
 
-![image](https://github.com/linkenliu/MissCloudVue/blob/master/static/images/body-bg.jpg)
-![image](http://oim9lzsav.bkt.clouddn.com/IMG_0554.PNG)
-![image](http://oim9lzsav.bkt.clouddn.com/IMG_0561.PNG)
-![image](http://oim9lzsav.bkt.clouddn.com/IMG_0556.PNG)
-![image](http://oim9lzsav.bkt.clouddn.com/IMG_0558.PNG)
-![image](http://oim9lzsav.bkt.clouddn.com/IMG_0560.PNG)
-![image](http://oim9lzsav.bkt.clouddn.com/IMG_0555.PNG)
-![image](http://oim9lzsav.bkt.clouddn.com/IMG_0559.PNG)
-![image](http://oim9lzsav.bkt.clouddn.com/IMG_0557.PNG)
+![image](https://github.com/linkenliu/MissCloudVue/blob/master/static/pic/IMG_0554.PNG)
+![image](https://github.com/linkenliu/MissCloudVue/blob/master/static/pic/IMG_0555.PNG)
+![image](https://github.com/linkenliu/MissCloudVue/blob/master/static/pic/IMG_0556.PNG)
+![image](https://github.com/linkenliu/MissCloudVue/blob/master/static/pic/IMG_0557.PNG)
+![image](https://github.com/linkenliu/MissCloudVue/blob/master/static/pic/IMG_0558.PNG)
+![image](https://github.com/linkenliu/MissCloudVue/blob/master/static/pic/IMG_0559.PNG)
+![image](https://github.com/linkenliu/MissCloudVue/blob/master/static/pic/IMG_0560.PNG)
+![image](https://github.com/linkenliu/MissCloudVue/blob/master/static/pic/IMG_0561.PNG)
+![image](https://github.com/linkenliu/MissCloudVue/blob/master/static/pic/IMG_0562.PNG)
+![image](https://github.com/linkenliu/MissCloudVue/blob/master/static/pic/IMG_0563.PNG)
+
 
 
 # 技术栈
