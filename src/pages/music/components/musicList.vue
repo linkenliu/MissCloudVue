@@ -1,5 +1,5 @@
 <template>
-  <div style="background-image: url('./../../../../static/images/body-bg.jpg');color: #fff;height: 100%">
+  <div :style="backgroundDiv" style="color: #fff;height: 100%">
     <div class="audio-box">
       <ul style="margin-left: -40px">
         <li v-for="(item,Index) in data" style="border-bottom:1px solid #ddd !important">
@@ -48,7 +48,10 @@
     data() {
       return {
         isAddPlayListMeng: false,
-        addSongObj: {}
+        addSongObj: {},
+        backgroundDiv: {
+          backgroundImage: 'url(' + require('../../../../static/images/body-bg.jpg') + ')',
+        }
       };
     },
     computed: {

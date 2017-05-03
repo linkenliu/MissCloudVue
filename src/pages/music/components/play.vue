@@ -1,6 +1,6 @@
 <template>
   <div id="play" style="position: absolute">
-    <div style="" class="audio-warp" style="background-image: url('/static/images/body-bg.jpg')">
+    <div style="" class="audio-warp" :style="backgroundDiv">
 
       <div style="align-content: center">
         <md-toolbar class="top-nav clear-bg">
@@ -21,7 +21,7 @@
       </div>
 
       <div @click="tabInterlayer()">
-        <div class="opticalDisk" v-show="isInterlayer==false">
+        <div class="opticalDisk" :style="backgroundTimg" v-show="isInterlayer==false">
           <img :src="song.picUrl" id="degImg" class="playcover rotation">
         </div>
       </div>
@@ -74,7 +74,13 @@
     data() {
       return {
         isInterlayer: true,
-        music: {}
+        music: {},
+        backgroundDiv: {
+          backgroundImage: 'url(' + require('../../../../static/images/body-bg.jpg') + ')',
+        },
+        backgroundTimg:{
+          backgroundImage: 'url(' + require('../../../../static/images/timg.png') + ')',
+        }
       };
     },
     computed: {
@@ -358,7 +364,7 @@
     width: 15rem;
     margin-top: 360px;
     height: 15rem;
-    background: url(/static/images/timg.png) 0 0 no-repeat;
+    /*background: url(/static/images/timg.png) 0 0 no-repeat;*/
     background-size: 15rem 15rem;
     animation: circle_top 12s linear 0s forwards;
     -webkit-animation: circle_top 12s linear 0s forwards;

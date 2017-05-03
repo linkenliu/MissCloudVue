@@ -1,5 +1,5 @@
 <template>
-  <div class="search-container">
+  <div class="search-container" :style="backgroundDiv">
 
     <div style="position: absolute;">
       <div style="margin-top: -13px;padding: 10px;padding-top:23px;color: #ddd;border-bottom: 1px solid;">热门搜索</div>
@@ -13,9 +13,9 @@
         <ul class="search-ul" style="margin-left: -40px">
           <li v-for="(item,index) in watchKeyWords">
             <div>
-              <img style="width: 28px" src="/static/images/history.png">
+              <img style="width: 28px" src="../../../../static/images/history.png">
               <div  @click="search($event)" :data="item.key" style="width: 60%;display: inline-block"><span style="margin-left: 10px;">{{item.key}}</span></div>
-              <img style="float: right;margin-right: 0px" src="/static/images/x.png" @click="removeKeyWord(index)">
+              <img style="float: right;margin-right: 0px" src="../../../../static/images/x.png" @click="removeKeyWord(index)">
             </div>
           </li>
         </ul>
@@ -35,7 +35,10 @@
         delSongObj: {},
         keyWords: [],
         iskeyWords: false,
-        hotSearch: ['陈奕迅', '薛之谦', '勇敢爱', '张学友', 'Good Life', '我不是一个好的男人', 'Linken Park', '童话镇', '许嵩', '那英', 'Palette', '王菲']
+        hotSearch: ['陈奕迅', '薛之谦', '勇敢爱', '张学友', 'Good Life', '我不是一个好的男人', 'Linken Park', '童话镇', '许嵩', '那英', 'Palette', '王菲'],
+        backgroundDiv: {
+          backgroundImage: 'url(' + require('../../../../static/images/body-bg.jpg') + ')',
+        }
       };
     },
     computed: {
@@ -193,7 +196,7 @@
     top: 60px !important;
     height: 100%;
     background-color: teal;
-    background: url("/static/images/body-bg.jpg");
+    /*background: url("../../../../static/images/body-bg.jpg");*/
     overflow-y: scroll;
     color: #fff
   }

@@ -1,5 +1,5 @@
 <template>
-  <div class="search-result-container">
+  <div class="search-result-container" :style="backgroundDiv">
 
    <!-- <nav class="music-nav" style="background-color: teal !important;padding: 10px;width:100%;overflow-x: scroll;position: fixed;z-index: 9999">
       <div>
@@ -61,7 +61,9 @@
     },
     data() {
       return {
-
+        backgroundDiv: {
+          backgroundImage: 'url(' + require('../../../../static/images/body-bg.jpg') + ')',
+        }
       };
     },
     computed: {
@@ -108,7 +110,7 @@
     background-color: #ffffff;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch !important;
-    background: url("/static/images/body-bg.jpg");
+    /*background: url("/static/images/body-bg.jpg");*/
     color: #fff
   }
 

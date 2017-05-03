@@ -1,5 +1,5 @@
 <template>
-  <div class="playList">
+  <div class="playList" :style="backgroundDiv">
     <div style="align-content: center">
       <md-toolbar class="top-nav clear-bg">
         <md-button class="md-icon-button" @click.native="toback()">
@@ -20,7 +20,7 @@
             <span>{{item.singer}}</span>
           </div>
           <div style="float: right;margin-top: -25px;margin-right: 12px !important;">
-            <img src="/static/images/menu.png" @click="showPlayListMeng(item,Index)" width="30px">
+            <img src="../../../static/images/menu.png" @click="showPlayListMeng(item,Index)" width="30px">
           </div>
         </li>
       </ul>
@@ -42,7 +42,10 @@
     data() {
       return {
         isPlayListMeng:false,
-        delSongObj:{}
+        delSongObj:{},
+        backgroundDiv: {
+          backgroundImage: 'url(' + require('./../../../static/images/body-bg.jpg') + ')',
+        }
       };
     },
     computed: {
@@ -98,7 +101,7 @@
     position: fixed;
     top: 0;
     height: 100%;
-    background-image: url('/static/images/body-bg.jpg');
+    /*background-image: url('/static/images/body-bg.jpg');*/
     color: #fff
   }
   li {
