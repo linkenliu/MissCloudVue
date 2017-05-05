@@ -1,6 +1,6 @@
 <template>
   <transition name="custom-classes-transition" enter-active-class="animated slideInLeft fast" mode="out-in">
-    <div id="music" style="margin-bottom: 420px;" v-if="!musicForSearchMode">
+    <div id="music" v-if="!musicForSearchMode">
       <swipe class="my-swipe">
         <swipe-item class="slide1"><img width="100%" style="height: 150px"
                                         src="http://p3.music.126.net/koESYfghIkL6EkJhbB5CXw==/19042441881532404.jpg">
@@ -58,6 +58,7 @@
 
 
       </div>
+      <div style="width: 100%;height: 400px"></div>
 
 
     </div>

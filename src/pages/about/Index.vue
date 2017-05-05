@@ -32,7 +32,8 @@
         <li>
           <strong>Github：</strong>
           <div>
-            <p>sss</p>
+            <p><a href="http://139.196.32.78:8090/#/home/music">在线Demo MissCloud</a></p>
+            <p><a href="https://github.com/linkenliu/MissCloudVue">https://github.com/linkenliu/MissCloudVue</a></p>
           </div>
         </li>
         <li>
