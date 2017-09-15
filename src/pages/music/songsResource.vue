@@ -22,6 +22,7 @@
           isLoading:true
       };
     },
+
     computed: {},
 
     methods: {
